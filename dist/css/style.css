@@ -1,55 +1,259 @@
 
+
 .jumbotron {
+
     padding: 0;
+
 }
+
+
 
 .background {
+
     width: 100%;
+
 }
+
+
 
 .main-nav {
+
     display: block;
+
     background: lightblue;
+
     list-style-type: none;
+
     margin-bottom: 20px;
+
 }
 
+
+
 .main-nav .nav-item {
+
     float: left;
+
     padding: 10px 0;
+
     text-align: center;
+
     border-right: 1px solid #ccc;
 
 
+
+
+
     width: 16.66%;
+
 }
+
+
 
 .main-nav .nav-item:last-child{
+
     border-right: none;
+
 }
 
+
+
 .main-nav a {
+
     text-decoration: none;
+
+    color: black;
+
+
+
+}
+
+.main-nav a:hover{
+
+    background: lightskyblue;
+
+}
+
+.content1{
+
+    margin-top: 30px;
+
+}
+
+.kt {
+
+    background: #FFFFDF;
+
+    padding: 5px;
+
+    border: 1px solid #cccccc;
+
+    text-align: center;
+
+    float: left;
+
+    cursor: pointer;
+
+}
+
+
+
+.kt:hover{
+
+    background: #ffffb3;
+
+}
+
+
+
+.kt img {
+
+    height: 70px;
+
+}
+
+.pet{
+
+    font-weight: bold;
+
+    padding: 5px;
+
+    margin-bottom: 5px;
+
+}
+
+.pet:hover{
+
+    opacity: 0.8;
+
+    cursor: pointer;
+
+}
+
+.pet.dia{
+
+    background: chocolate;
+
+    color: white;
+
+}
+
+
+
+.pet.thuy{
+
+    background: lightskyblue;
+
+    color: white;
+
+}
+
+
+
+.pet.hoa{
+
+    background: orangered;
+
+    color: white;
+
+}
+
+
+
+.pet.phong{
+
+    background: greenyellow;
+
     color: black;
 
 }
-.main-nav a:hover{
-    background: lightskyblue;
+
+
+
+.pet.ChuaXacDinh{
+
+    background: darkgray;
+
+    color: white;
+
 }
-.content1{
+
+.pet .img-kt img{
+
+    height: 50px;
+
+}
+
+
+
+.loai-he{
+
+    height: 30px;
+
+}
+
+.kt-images{
+
+    height: 40px;
+
+}
+
+#info-pet .row{
+
+    margin-bottom: 5px;
+
+}
+
+footer{
+
     margin-top: 30px;
+
+    border-top: 1px solid #ccc;
+
 }
-.kt {
-    background: #FFFFDF;
-    padding: 5px;
+
+.input-group-text{
+
+    min-width: 115px;
+
+}
+
+
+
+.choose-map{
+
+    margin-top:5px;
+
+}
+
+
+
+.content-img{
+
+    max-width: 100%;
+
+}
+
+.content-map{
+
     border: 1px solid #cccccc;
+
     text-align: center;
-    float: left;
-    cursor: pointer;
+
+}
+
+.show-map{
+
+    margin-top: 30px;
+
+}
+
+.search-form .row {
+    margin-bottom: 15px;
 }
 
 .kt-type-option {
-    min-width: 120px;
+    min-width: 150px;
 }
 
 .hero-kt-option {
@@ -60,67 +264,8 @@
     min-height: 200px;
 }
 
-.kt:hover{
-    background: #ffffb3;
+select[name="He"] {
+    min-width: 70px;
 }
-
-.kt img {
-    height: 70px;
-}
-.pet{
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 5px;
-}
-.pet:hover{
-    opacity: 0.8;
-    cursor: pointer;
-}
-.pet.dia{
-    background: chocolate;
-    color: white;
-}
-
-.pet.thuy{
-    background: lightskyblue;
-    color: white;
-}
-
-.pet.hoa{
-    background: orangered;
-    color: white;
-}
-
-.pet.phong{
-    background: greenyellow;
-    color: black;
-}
-
-.pet.ChuaXacDinh{
-    background: darkgray;
-    color: white;
-}
-.pet .img-kt img{
-    height: 50px;
-}
-
-.loai-he{
-    height: 30px;
-}
-.kt-images{
-    height: 40px;
-}
-#info-pet .row{
-    margin-bottom: 5px;
-}
-footer{
-    margin-top: 30px;
-    border-top: 1px solid #ccc;
-}
-
-.search-form .row {
-    margin-bottom: 15px;
-}
-
 
 

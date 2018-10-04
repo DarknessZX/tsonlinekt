@@ -105,11 +105,10 @@
                                 </td>
                                 <td>
                                     <textarea class="form-control" rows="5" value="<?=$row_KT['MoTa']?>" name="MoTa"><?=$row_KT['MoTa']?></textarea>
-                                    <!-- <input type="text" class="form-control" value="<?=$row_KT['MoTa']?>" name="MoTa"> -->
                                 </td>
                                 <td>
                                     <img src='/dist/images/Pet/<?=$row_KT['HinhAnh']?>'/>
-                                    <input type="text" class="form-control" value="<?=$row_KT['HinhAnh']?>" name="HinhAnh">
+                                    <input type="text" class="form-control" value="<?=$row_KT['HinhAnh']?>" name="HinhAnh" style="width: 200px">
                                 </td>
                                 <td>
                                     <button type="button" class="btn btn-primary js-button-update">Update</button>

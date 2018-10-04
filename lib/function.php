@@ -43,12 +43,11 @@ function HePhaiImages($he){
 }
 
 function TimKiemWithPaging($conn,$Keyword,$Type, $page){
-	$start = ($page-1) * 30;
-	$end = $start + 20;
+	$start = ($page-1) * 20;
 	$qr = "
 	SELECT * FROM kt
 	WHERE $Type LIKE '%$Keyword%' ORDER BY idKT ASC
-	LIMIT $start, $end
+	LIMIT $start, 20
 	";
 	return mysqli_query($conn, $qr);
 }
